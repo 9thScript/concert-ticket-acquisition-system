@@ -5,7 +5,7 @@ It is a desktop-based transaction-processing application designed to facilitate 
 
 ## Screenshots
 ### Soil Analysis Dashboard
-![Sign Up](readme_images/Sign Up.png)
+![Sign Up](readme_images/Payment.png)
 
 ## Technology Stack
 - **Frontend:** JavaFX
