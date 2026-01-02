@@ -5,10 +5,14 @@ It is a desktop-based transaction-processing application designed to facilitate 
 
 ## Screenshots
 ### Sign Up Form
-![Sign Up](readme_images/Sign-Up.png)
+<p align="center">
+  <img src="readme_images/Sign-Up.png" alt="Sign Up">
+</p>
 
 ### Sign In Form
-![Sign In](readme_images/Sign-In.png)
+<p align="center">
+  <img src="readme_images/Sign-In.png" alt="Sign In">
+</p>
 
 ### Home Page
 ![Home](readme_images/Home-Page.png)
