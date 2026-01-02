@@ -1,0 +1,199 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 7, 2023, 10:49:09 PM
+    Author     : CC
+*/
+
+.tab-form {
+    -fx-background-color:linear-gradient(to top right, #3673c8, #02c1ea);
+}
+
+.top-form {
+    -fx-border-width:.2px .2px .4px .2px;
+    -fx-border-color: #000;
+    -fx-background-color: #fff;
+}
+
+.nav-btn {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 20px;
+    -fx-alignment: CENTER_LEFT;
+    -fx-font-weight: bold;
+    -fx-background-radius: 20px;
+}
+
+.nav-btn:hover {
+    -fx-background-color: #2a5298;
+}
+
+.signout {
+    -fx-background-color: #ae2d3c;
+    -fx-background-radius: 15px;
+    -fx-cursor: hand;
+}
+
+.signout:hover {
+    -fx-background-color: #d62651;
+}
+
+.back {
+    -fx-background-color: #1e3c72;
+    -fx-background-radius: 15px;
+    -fx-cursor: hand;
+}
+
+.back:hover {
+    -fx-background-color: #2a5298;
+}
+
+.concertcards {
+    -fx-background-color:linear-gradient(to top right, #1e3c72, #2a5298);
+    -fx-background-radius: 30px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 8,0,0,0);
+}
+
+.buytickets {
+    -fx-background-color: #3e785c;
+    -fx-font-weight: bold;
+    -fx-font-family: Segoe UI;
+    -fx-background-radius: 15px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 15px;
+}
+
+.buytickets:hover {
+    -fx-background-color: #399a73;
+}
+
+.displayname {
+    -fx-alignment: CENTER;
+}
+
+.seatplansecondfloor {
+    -fx-background-color: #1a3462;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 8,0,0,0);
+}
+
+.proceedtopayment {
+    -fx-background-color: #3e785c;
+    -fx-font-weight: bold;
+    -fx-font-family: Segoe UI;
+    -fx-background-radius: 15px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 18px;
+}
+
+.proceedtopayment:hover {
+    -fx-background-color: #399a73;
+}
+
+.vipseatinga {
+    -fx-background-color: #6E48AA;
+    -fx-font-weight: bold;
+    -fx-font-family: Segoe UI;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 20px;
+}
+
+.vipseatinga:hover {
+    -fx-background-color: #9D50BB;
+}
+
+.vipseatingb {
+    -fx-background-color: #3a7bd5;
+    -fx-font-weight: bold;
+    -fx-font-family: Segoe UI;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 20px;
+}
+
+.vipseatingb:hover {
+    -fx-background-color: #00d2ff;
+}
+
+.loge {
+    -fx-background-color: #0f9b0f;
+    -fx-font-weight: bold;
+    -fx-font-family: Segoe UI;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 20px;
+}
+
+.loge:hover {
+    -fx-background-color: #52c234;
+}
+
+.balcony {
+    -fx-background-color: #C02425;
+    -fx-font-weight: bold;
+    -fx-font-family: Segoe UI;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 20px;
+}
+
+.balcony:hover {
+    -fx-background-color: #f12711;
+}
+
+.seatbutton {
+    -fx-background-color: #fff;
+    -fx-cursor: hand;
+}
+
+.checkbox {
+    -fx-cursor: hand;
+}
+
+.color-checkbox:selected .box {
+    -fx-background-color: #6e48aa;
+    -fx-text-fill: #6e48aa;
+}
+
+.color-checkbox:selected .box .mark {
+    -fx-background-color: #6e48aa;
+    -fx-text-fill: #6e48aa;
+}
+
+.paymentselection {
+    -fx-background-color: #1e3c72;
+    -fx-background-radius: 15px;
+    -fx-cursor: hand;
+}
+
+.paymentselection:hover {
+    -fx-background-color: #2a5298;
+}
+
+.purchase {
+    -fx-background-color: #3e785c;
+    -fx-font-weight: bold;
+    -fx-font-family: Segoe UI;
+    -fx-background-radius: 15px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 20px;
+}
+
+.purchase:hover {
+    -fx-background-color: #399a73;
+}
+
+.disablebutton {
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-font-family: Segoe UI;
+    -fx-background-radius: 15px;
+    -fx-text-fill: #fff;
+    -fx-font-size: 15px;
+}
