@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="713.0" prefWidth="669.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxtest.ReceiptController">
+   <children>
+      <AnchorPane layoutX="102.0" layoutY="43.0" prefHeight="200.0" prefWidth="467.0" styleClass="concertcards" stylesheets="@designHome.css">
+         <children>
+            <ImageView fitHeight="184.0" fitWidth="317.0" layoutX="75.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/TIP%20Theater%20Inc%20Logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Line endX="540.0" layoutX="115.0" layoutY="315.0" startX="-100.0" stroke="#1e3c72" strokeWidth="5.0" />
+      <Label layoutX="45.0" layoutY="367.0" text="Last Name:">
+         <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="342.0" text="First Name:">
+         <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="392.0" text="Age:">
+         <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+         </font>
+      </Label>
+      <Line endX="540.0" layoutX="114.0" layoutY="497.0" startX="-100.0" stroke="#1e3c72" strokeWidth="5.0" />
+      <Label layoutX="203.0" layoutY="517.0" text="Type">
+         <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="517.0" text="Quantity">
+         <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+         </font>
+      </Label>
+      <Line endX="540.0" layoutX="114.0" layoutY="603.0" startX="-100.0" stroke="#1e3c72" strokeWidth="5.0" />
+      <Label layoutX="523.0" layoutY="517.0" text="Amount">
+         <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="receiptType" layoutX="202.0" layoutY="558.0" text="Type">
+         <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="receiptQuantity" layoutX="45.0" layoutY="558.0" text="Quantity">
+         <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="receiptLast" layoutX="277.0" layoutY="367.0" text="Last">
+         <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="receiptFirst" layoutX="276.0" layoutY="342.0" text="First">
+         <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="receiptAge" layoutX="276.0" layoutY="392.0" text="Age">
+         <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="receiptAmount" layoutX="523.0" layoutY="558.0" text="Total">
+         <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="receiptTopForm" prefHeight="35.0" prefWidth="600.0" stylesheets="@designHome.css">
+         <children>
+            <Label layoutX="7.0" layoutY="6.0">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="17.0" layoutY="285.0" text="ACCOUNT DETAILS">
+         <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="418.0" text="Credit Card Number:">
+         <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="276.0" layoutY="418.0" text="XXXXXXXXXXXXXXXX">
+         <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+         </font>
+      </Label>
+      <Line endX="540.0" layoutX="115.0" layoutY="280.0" startX="-100.0" stroke="#1e3c72" strokeWidth="5.0" />
+      <Label layoutX="17.0" layoutY="466.0" text="TRANSACTION DETAILS">
+         <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+         </font>
+      </Label>
+      <Line endX="540.0" layoutX="115.0" layoutY="458.0" startX="-100.0" stroke="#1e3c72" strokeWidth="5.0" />
+      <Label layoutX="378.0" layoutY="517.0" text="Price">
+         <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="receiptPrice" layoutX="379.0" layoutY="558.0" text="Price">
+         <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+         </font>
+      </Label>
+      <Line endX="540.0" layoutX="114.0" layoutY="643.0" startX="-100.0" stroke="#1e3c72" strokeWidth="5.0" />
+      <Label layoutX="17.0" layoutY="612.0" text="SEATS SELECTED">
+         <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="receiptSeats" layoutX="44.0" layoutY="662.0" text="Seats">
+         <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
